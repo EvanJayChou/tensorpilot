@@ -26,4 +26,5 @@ This open-sourced research project investigates the use of multi-agent framework
 ## Credits
 
 **AI Solution Design and Implementation**: Evan Chou
+
 **Associated with**: AI/ML Club at Pasadena City College
