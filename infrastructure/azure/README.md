@@ -18,34 +18,38 @@ This folder contains Terraform scripts to provision core Azure resources for the
 ---
 
 ## Folder Structure
-
+```
 terraform/
 ├─ main.tf # Resource definitions
 ├─ variables.tf # Variables like project name, location
 ├─ outputs.tf # Captures endpoints and key vault URI
 ├─ providers.tf # Azure provider configuration
 └─ README.md
-
+```
 
 ---
 
 ## Quick Start (Local Dev)
 
 1. **Clone the repo and navigate to terraform folder**
-```powershell```
+```powershell
 cd infrastructure/azure/terraform
+```
 
 2. **Initialize Terraform**
-```powershell```
+```powershell
 terraform init
+```
 
 3. **Plan changes**
-```powershell```
+```powershell
 terraform plan
+```
 
 4. **Apply changes**
-```powershell```
+```powershell
 terraform apply
+```
 
 - Confirm with `yes` when prompted.
 - This will provision:
@@ -54,8 +58,9 @@ terraform apply
     - Azure Key Vault
 
 5. **View outputs**
-```powershell```
+```powershell
 terraform output
+```
 
 You will see:
 - Resource Group name
