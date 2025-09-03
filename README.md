@@ -4,18 +4,20 @@ This open-sourced research project investigates the use of multi-agent framework
 
 **Key Highlights**
 
-- Agentic RAG is incorporated as an AutoGen agent and fetches documents with math proofs and formula sheets
+- Agentic RAG is incorporated and fetches documents from a global dataset including math proofs and formula sheets
 - Math agents converse with each other to break down and solve a user query
 - Memory retrievals based on previously solved problems further contextualize the RAG agent
+- Deployed into Azure, using Cognitive Search, AI Search, and other services including Kubernetes
 
 ## Tools and Software
 
-- AutoGen
-- LlamaIndex
-- LangChain
-- LangGraph
+- LangChain/LangGraph
 - ReAct
-- FAISS
+- Azure
+    - Key Vault
+    - Cognitive Search
+    - Kubernetes
+- Terraform
 
 ## Benchmarks
 
@@ -25,6 +27,6 @@ This open-sourced research project investigates the use of multi-agent framework
 
 ## Credits
 
-**AI Solution Design and Implementation**: Evan Chou
+**Developed by**: Evan Chou
 
-**Associated with**: AI/ML Club at Pasadena City College
+**Associated with**: AI Club at Pasadena City College
