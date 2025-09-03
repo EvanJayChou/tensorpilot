@@ -7,3 +7,5 @@ terraform.tfvars
 *.auto.tfvars
 crash.log
 *.terraform.lock.hcl
+
+.env
