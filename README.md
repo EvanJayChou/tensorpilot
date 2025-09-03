@@ -23,6 +23,12 @@ This open-sourced research project investigates the use of multi-agent framework
 
 *To be announced...*
 
+## Contributing
+
+- Fork the repository
+- Create an Azure account
+- Follow steps in the terraform/README.md to set up Azure services and resource group through Infrastructure as Code (IaC)
+
 ---
 
 ## Credits

@@ -27,7 +27,7 @@ resource "azurerm_search_service" "search" {
     name                    = "${var.project_name}-search"
     resource_group_name     = azurerm_resource_group.rg.name
     location                = azurerm_resource_group.rg.location
-    sku                     = "basic"
+    sku                     = "free"
     partition_count         = 1
     replica_count           = 1
 }
