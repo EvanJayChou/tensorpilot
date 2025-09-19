@@ -1,0 +1,6 @@
+sympy
+numpy
+requests
+matplotlib
+plotly
+pytest

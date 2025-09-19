@@ -9,3 +9,5 @@ crash.log
 *.terraform.lock.hcl
 
 .env
+*__init__.py
+*__pycache__
